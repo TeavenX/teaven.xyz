@@ -89,7 +89,9 @@ theme: Shoka
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/TeavenX/teaven.xyz
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})"
 
 
 markdown:
