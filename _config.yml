@@ -62,11 +62,17 @@ default_category: unclassified
 category_map:
   Python: python
   Node.js: nodejs
-  Kubernetes: k8s
+  # Kubernetes: k8s
   区块链: blockchain
   教程: document
   杂谈: mixed
 tag_map:
+  Python: python
+  Node.js: nodejs
+  # Kubernetes: k8s
+  区块链: blockchain
+  教程: document
+  杂谈: mixed
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
