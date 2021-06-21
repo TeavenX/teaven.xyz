@@ -1,0 +1,36 @@
+@import "css/rainbowsafari.css";
+
+body {
+    height: 150vh;
+}
+
+body:before {
+    background: linear-gradient( 124deg,
+    #FF0000,
+    #FF7F00,
+    #FFFF00,
+    #7FFF00,
+    #00FF00,
+    #00FF7F,
+    #00FFFF,
+    #007FFF,
+    #0000FF,
+    #7F00FF,
+    #FF00FF,
+    #FF007F,
+    #FF0000);
+    animation: rainbow 12s ease infinite;
+    background-size: 1000% 1000%;
+    }
+
+@keyframes rainbow {
+    0% {
+        background-position: 0% 80%;
+    }
+    50% {
+        background-position: 100% 20%;
+    }
+    100% {
+        background-position: 0% 80%;
+    }
+}
